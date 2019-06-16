@@ -186,7 +186,7 @@ function retropie_welcome() {
         out+="\n"
     done
     local j
-    for j in {0..11}; do
+    for j in {0..12}; do
         case "$j" in
             0)
                 out+="${fggrn}$(date +"%A, %e %B %Y, %X")"
